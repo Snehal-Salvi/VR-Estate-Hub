@@ -75,7 +75,7 @@ npm install
 5. Run the project.
 
 ```
-npm start
+node app.js
 ```
 
 ## How to Run the Application(Frontend)
