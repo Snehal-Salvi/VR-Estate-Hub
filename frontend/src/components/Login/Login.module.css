@@ -1,0 +1,26 @@
+.loginContainer {
+    background-color: #001f3f;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px black;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.textLight {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.borderLight {
+    border-color: #000000;
+}
+
+@media (max-width: 576px) {
+    .loginContainer {
+        padding: 20px;
+    }
+}

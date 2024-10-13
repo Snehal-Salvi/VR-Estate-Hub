@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# VR-Estate-Hub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+VR-Estate-Hub is a virtual real estate platform that allows users to browse properties, schedule tours, and experience immersive virtual tours of properties. The platform also features role-based access control for customers, property admins, and super admins to manage properties and users.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Customer Functionality:**
 
-### `npm start`
+  - Browse available properties.
+  - Schedule property tours.
+  - Experience virtual tours of properties through a VR simulation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Property Admin Functionality:**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  - Manage properties (add, edit, and delete).
+  - View scheduled property tours.
 
-### `npm test`
+- **Super Admin Functionality:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - Manage all properties across the platform.
+  - Manage Property Admin and Super Admin accounts.
+  - Assign and update roles for users.
 
-### `npm run build`
+- **Role-Based Access Control:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - Three user roles: Customer, Property Admin, Super Admin.
+  - Customers can browse properties and schedule tours.
+  - Property Admins can manage assigned properties.
+  - Super Admins have full control over users and properties.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **JWT Authentication:**
+  - JSON Web Tokens (JWT) are used for secure authentication and role-based access control.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Backend
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Node.js**: JavaScript runtime for building the server-side application.
+- **Express.js**: Web framework for building the API.
+- **Mongoose**: MongoDB object modeling tool to handle data storage.
+- **JWT**: Used for secure user authentication.
+- **Bcrypt.js**: For password hashing and security.
+- **Dotenv**: To manage environment variables.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Frontend
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **React**: JavaScript library for building the frontend UI.
+- **React-360**: Library for building VR experiences.
+- **Bootstrap**: For styling and responsive design.
+- **FontAwesome**: For icons in the user interface.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## How to Run the Application(Backend)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To run this project locally, follow these steps:
 
-### Code Splitting
+1. Clone the repository.
+2. Navigate to the project directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+cd backend
+```
 
-### Analyzing the Bundle Size
+3. Install the necessary dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+npm install
+```
 
-### Making a Progressive Web App
+4. Set up environment variables.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+5. Run the project.
 
-### Advanced Configuration
+```
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## How to Run the Application(Frontend)
 
-### Deployment
+To run this project locally, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Clone the repository.
+2. Navigate to the project directory:
 
-### `npm run build` fails to minify
+```
+cd frontend
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. Install the necessary dependencies:
+
+```
+npm install
+```
+
+4. Run the project.
+
+```
+npm start
+```
+
+## Authors
+
+- [@Snehal](https://github.com/Snehal-Salvi)

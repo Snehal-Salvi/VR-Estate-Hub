@@ -1,0 +1,53 @@
+ .modalHeader {
+   background-color: #007bff;
+   color: white;
+ }
+
+ .modalTitle {
+   font-size: 1.5rem;
+   font-weight: bold;
+ }
+
+ .modalBody {
+   padding: 20px;
+ }
+
+ .formGroup {
+   margin-bottom: 15px;
+ }
+
+ .button {
+   width: 100%;
+   background-color: #28a745;
+   color: white;
+ }
+
+ .button:hover {
+   background-color: #218838;
+ }
+
+
+ .table {
+   margin-top: 20px;
+   border-collapse: collapse;
+
+ }
+
+ .table th,
+ .table td {
+   border: 1px solid #dee2e6;
+   padding: 12px;
+ }
+
+ .table th {
+   background-color: #007bff;
+   color: white;
+ }
+
+ .table tr:nth-child(even) {
+   background-color: #f8f9fa;
+ }
+
+ .table tr:hover {
+   background-color: #e2e3e5;
+ }
